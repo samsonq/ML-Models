@@ -14,7 +14,7 @@ class LogisticRegression:
     
     def __init__(self):
         """
-        The constructor that initializes both weights of the model to 0.
+        Class constructor that initializes both weights of the model to 0.
         """
         self.c_0 = 0
         self.c_1 = 0
@@ -26,7 +26,7 @@ class LogisticRegression:
         the fitted Logistic Regression model accordingly.
         :param x: array of training data
         :param y: array of binary labels
-        :returns: weights of the fitted model
+        :returns: weights of the fitted model, c0 and c1
         """
         y += np.sign(0.5 - y) * 0.001  # nudge the data
         y = LogisticRegression.y_transform(y)  # linearize labels through transformation
@@ -39,17 +39,17 @@ class LogisticRegression:
 
     def predict_prob(self, x):
         """
-
-        :param x:
-        :return:
+        Given a feature value, x, calculates and returns the probability that it is class 1.
+        :param x: feature data
+        :return: probability it is 1
         """
         return LogisticRegression.fitted_logistic(x, self.c_0, self.c_1)
         
     def predict(self, x):
         """
-        Predict
-        :param x:
-        :returns:
+        Given a feature value, x, predict and return whether it is class 1.
+        :param x: feature data
+        :return: 1 or 0
         """
         probability_threshold = 0.5
         probability = LogisticRegression.fitted_logistic(x, self.c_0, self.c_1)
@@ -58,19 +58,20 @@ class LogisticRegression:
     @staticmethod
     def y_transform(y):
         """
-
-        :param y:
-        :return:
+        Helper function to linearize the logistic function in order to calculate weights.
+        :param y: y value
+        :return: linearized logistic value
         """
         return np.log((1-y)/y)
 
     @staticmethod
     def fitted_logistic(x, c0, c1):
         """
-
-        :param x:
-        :param c0:
-        :param c1:
-        :returns:
+        The linearized logistic function that takes in a data, x, and weights, c0 and c1, and
+        calculates the outputted value.
+        :param x: x value
+        :param c0: weight 0
+        :param c1: weight 1
+        :return: output of logistic function
         """
         return 1/(1 + np.exp(c0 + c1 * x))
