@@ -17,24 +17,38 @@ class PCA:
         """
         self.top_eigenvector = np.array([])
 
-    def fit(self, x, y):
+    def fit(self, x1, x2):
         """
-
-        :param x:
-        :param y:
-        :return:
+        Fits the inputted features into the PCA by standardizing each feature according to mean, and
+        determining the top eigenvector of the matrix X(X^T).
+        :param x1: array of data for first feature
+        :param x2: array of data for second feature
         """
-        x = x - np.mean(x)  # center the x data by subtracting mean
-        y = y - np.mean(y)  # center the y data by subtracting mean
-        X = np.array([x, y])
+        if type(x1) == "list":
+            x1 = np.array(x1)
+        if type(x2) == "list":
+            x2 = np.array(x2)
+        x1 = x1 - np.mean(x1)  # center the x data by subtracting mean
+        x2 = x2 - np.mean(x2)  # center the y data by subtracting mean
+        X = np.array([x1, x2])
         X_transpose = X.transpose()
         eigenvectors = np.linalg.eigh(X.dot(X_transpose))
-        self.top_eigenvector = abs(eigenvectors[-1])  # positive values of the top eigenvector of X(X^T)
+        self.top_eigenvector = eigenvectors[-1][-1]  # positive values of the top eigenvector of X(X^T)
 
     def map(self, x):
         """
-
-        :param x:
-        :return:
+        Takes a feature vector of size 2 and maps it to a single value through the dot product with
+        the top eigenvector calculated by fitting the data.
+        :param x: feature of vector of size 2
+        :return: single mapped value
         """
+        if type(x) == "list":
+            x = np.array(x)
         return x.dot(self.top_eigenvector)
+
+    def get_eigen(self):
+        """
+        Getter method to retrieve the top eigenvector calculated by fitting data
+        :return: top eigenvector of X(X^T)
+        """
+        return self.top_eigenvector
