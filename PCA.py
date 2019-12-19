@@ -48,7 +48,7 @@ class PCA:
 
     def get_eigen(self):
         """
-        Getter method to retrieve the top eigenvector calculated by fitting data
+        Getter method to retrieve the top eigenvector calculated by fitting data.
         :return: top eigenvector of X(X^T)
         """
         return self.top_eigenvector

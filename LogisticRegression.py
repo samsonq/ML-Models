@@ -75,3 +75,17 @@ class LogisticRegression:
         :return: output of logistic function
         """
         return 1/(1 + np.exp(c0 + c1 * x))
+
+    def get_weights(self):
+        """
+        Getter method that retrieves and returns weights of fitted model.
+        :return: weights of model, c0 and c1
+        """
+        return self.c_0, self.c_1
+
+
+xx = np.array([66, 68, 70, 74, 75, 76, 77, 80, 85, 93])
+yy = np.array([0, 0, 0, 1, 0, 1, 0, 1, 1, 1])
+
+model = LogisticRegression()
+model.fit(xx, yy)

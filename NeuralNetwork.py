@@ -1,5 +1,4 @@
 import numpy as np
-from LossFunctions import MSE
 
 
 class SingleNeuron:
@@ -8,7 +7,7 @@ class SingleNeuron:
         self.weights = np.array([])
         self.bias = 0
 
-    def forward_prop(self, data, activation):
+    def forward_propagation(self, data, activation):
         sum = np.dot(self.weights, data) + self.bias
         if activation == "relu":
             return SingleNeuron.relu(sum)
@@ -28,6 +27,10 @@ class SingleNeuron:
     @staticmethod
     def relu(x):
         return max(0, x)
+
+    @staticmethod
+    def mse(x, pred_x):
+        return np.mean((x - pred_x) ** 2)
 
 
 class NeuralNetwork(SingleNeuron):
