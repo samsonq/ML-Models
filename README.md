@@ -5,7 +5,7 @@ I have made:
 1. Linear Regression
 2. Logistic Regression
 3. PCA
-Naive Bayes (IP)
-Simple Neural Network
-Convolutional Neural Network
-Recurrent Neural Network (IP)
+4. Naive Bayes (IP)
+5. Simple Neural Network
+6. Convolutional Neural Network
+7. Recurrent Neural Network (IP)
