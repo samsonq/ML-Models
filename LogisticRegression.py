@@ -11,7 +11,6 @@ class LogisticRegression:
     train a model based on data and make predictions to new data. This is a classification
     model where a probability is calculated of a data being (1) or (0).
     """
-    
     def __init__(self):
         """
         Class constructor that initializes both weights of the model to 0.
@@ -28,6 +27,7 @@ class LogisticRegression:
         :param y: array of binary labels
         :returns: weights of the fitted model, c0 and c1
         """
+        y = y.astype(float)
         y += np.sign(0.5 - y) * 0.001  # nudge the data
         y = LogisticRegression.y_transform(y)  # linearize labels through transformation
         n = len(y)  # number of data points
@@ -84,8 +84,13 @@ class LogisticRegression:
         return self.c_0, self.c_1
 
 
-xx = np.array([66, 68, 70, 74, 75, 76, 77, 80, 85, 93])
-yy = np.array([0, 0, 0, 1, 0, 1, 0, 1, 1, 1])
+def test():
+    xx = np.array([66, 68, 70, 74, 75, 76, 77, 80, 85, 93])
+    yy = np.array([0, 0, 0, 1, 0, 1, 0, 1, 1, 1])
 
-model = LogisticRegression()
-model.fit(xx, yy)
+    model = LogisticRegression()
+    model.fit(xx, yy)
+    print(model.predict_prob(80))
+
+
+test()
