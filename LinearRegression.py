@@ -50,15 +50,3 @@ class LinearRegression:
         :return: weights of model
         """
         return self.weights
-
-
-def test():
-    model = LinearRegression()
-    xx = np.array([1, 2, 3, 4, 5])
-    yy = np.array([2, 4, 6, 8, 10])
-
-    model.fit(xx, yy)
-    print(model.predict([3]))
-
-
-test()

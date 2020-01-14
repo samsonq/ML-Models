@@ -82,15 +82,3 @@ class LogisticRegression:
         :return: weights of model, c0 and c1
         """
         return self.c_0, self.c_1
-
-
-def test():
-    xx = np.array([66, 68, 70, 74, 75, 76, 77, 80, 85, 93])
-    yy = np.array([0, 0, 0, 1, 0, 1, 0, 1, 1, 1])
-
-    model = LogisticRegression()
-    model.fit(xx, yy)
-    print(model.predict_prob(80))
-
-
-test()

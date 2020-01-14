@@ -51,15 +51,3 @@ class PCA:
         :return: top eigenvector of X(X^T)
         """
         return self.top_eigenvector
-
-
-def test():
-    xx1 = np.array([6.5, 5.25, 5.75, 5.5])
-    xx2 = np.array([5.5, 4, 5, 4.5])
-
-    pca = PCA()
-    pca.fit(xx1, xx2)
-    print(pca.map([-0.5, -0.75]))
-
-
-test()
