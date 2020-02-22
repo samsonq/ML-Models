@@ -59,7 +59,7 @@ class LogisticRegression:
     def y_transform(y):
         """
         Helper function to linearize the logistic function in order to calculate weights.
-        :param y: y value
+        :param y: input value
         :return: linearized logistic value
         """
         return np.log((1-y)/y)
@@ -69,7 +69,7 @@ class LogisticRegression:
         """
         The linearized logistic function that takes in a data, x, and weights, c0 and c1, and
         calculates the outputted value.
-        :param x: x value
+        :param x: input value
         :param c0: weight 0
         :param c1: weight 1
         :return: output of logistic function
