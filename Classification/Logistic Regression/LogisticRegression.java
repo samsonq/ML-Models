@@ -1,7 +1,9 @@
 import java.lang.Math;
 
 /**
- *
+ * A Logistic Regression model that uses single-featured, labeled data. Contains methods to
+ * train a model based on data and make predictions to new data. This is a classification
+ * model where a probability is calculated of a data being (1) or (0).
  *
  * @author Samson Qian
  */
