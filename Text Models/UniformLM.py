@@ -22,7 +22,6 @@ class UniformLM(object):
         values giving the (uniform) probability of a token occurring
         in the language.
         :param tokens: tuple of tokens
-        :returns: probability model of uniform occurrences of words
         """
         total = len(set(tokens))
         uniform = pd.Series([1 / total for _ in range(total)], index=set(tokens))
