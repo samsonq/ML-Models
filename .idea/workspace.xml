@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Classification/Decision Tree/DecisionTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/Decision Tree/RandomForest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/Naive Bayes/NaiveBayes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/SVM/SVM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text Models/NGramLM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Decision Tree/DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/Decision Tree/DecisionTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Decision Tree/RandomForest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/Decision Tree/RandomForest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Naive Bayes/NaiveBayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/Naive Bayes/NaiveBayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/SVM/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/SVM/SVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural Networks/Convolutional Neural Network/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neural Networks/Convolutional Neural Network/CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/RNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/RNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text Models/NGramLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Text Models/NGramLM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Text Models/UniformLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Text Models/UniformLM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsupervised/Clustering/KMeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unsupervised/Clustering/KMeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsupervised/Principal Component Analysis/PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unsupervised/Principal Component Analysis/PCA.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,32 +24,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Text Models/UniformLM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Text Models/NGramLM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
-              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,14 +53,16 @@
         <option value="$PROJECT_DIR$/LogisticRegression.py" />
         <option value="$PROJECT_DIR$/LogisticRegression.java" />
         <option value="$PROJECT_DIR$/Classification/Logistic Regression/LogisticRegression.java" />
-        <option value="$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/RNN.py" />
-        <option value="$PROJECT_DIR$/Unsupervised/Clustering/KMeans.py" />
-        <option value="$PROJECT_DIR$/Classification/Naive Bayes/NaiveBayes.py" />
-        <option value="$PROJECT_DIR$/Classification/SVM/SVM.py" />
         <option value="$PROJECT_DIR$/Classification/Decision Tree/DecisionTree.py" />
         <option value="$PROJECT_DIR$/Classification/Decision Tree/RandomForest.py" />
-        <option value="$PROJECT_DIR$/Text Models/UniformLM.py" />
+        <option value="$PROJECT_DIR$/Classification/Naive Bayes/NaiveBayes.py" />
+        <option value="$PROJECT_DIR$/Classification/SVM/SVM.py" />
+        <option value="$PROJECT_DIR$/Neural Networks/Convolutional Neural Network/CNN.py" />
+        <option value="$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/RNN.py" />
         <option value="$PROJECT_DIR$/Text Models/NGramLM.py" />
+        <option value="$PROJECT_DIR$/Text Models/UniformLM.py" />
+        <option value="$PROJECT_DIR$/Unsupervised/Principal Component Analysis/PCA.py" />
+        <option value="$PROJECT_DIR$/Unsupervised/Clustering/KMeans.py" />
       </list>
     </option>
   </component>
@@ -123,7 +104,31 @@
             <path>
               <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Naive Bayes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="SVM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
               <item name="Neural Networks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Neural Networks" type="462c0819:PsiDirectoryNode" />
+              <item name="Convolutional Neural Network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Neural Networks" type="462c0819:PsiDirectoryNode" />
+              <item name="Recurrent Neural Network" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
@@ -134,12 +139,35 @@
             <path>
               <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="LinearRegression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
               <item name="Text Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
               <item name="Unsupervised" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Unsupervised" type="462c0819:PsiDirectoryNode" />
+              <item name="Clustering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML-Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Unsupervised" type="462c0819:PsiDirectoryNode" />
+              <item name="Principal Component Analysis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,17 +335,18 @@
       <workItem from="1582665578714" duration="41000" />
       <workItem from="1585109764344" duration="13000" />
       <workItem from="1585451514626" duration="1284000" />
+      <workItem from="1585453515099" duration="270000" />
+      <workItem from="1585514663831" duration="222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20059000" />
+    <option name="totallyTimeSpent" value="20551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="145" y="25" width="1453" height="1008" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4075124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41885188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -401,14 +430,20 @@
     <entry file="file://$PROJECT_DIR$/LinearRegression.java" />
     <entry file="file://$PROJECT_DIR$/LogisticRegression.py" />
     <entry file="file://$PROJECT_DIR$/LogisticRegression.java" />
-    <entry file="file://$PROJECT_DIR$/Classification/Logistic Regression/LogisticRegression.py">
+    <entry file="file://$PROJECT_DIR$/Classification/Decision Tree/DecisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unsupervised/Principal Component Analysis/PCA.py" />
+    <entry file="file://$PROJECT_DIR$/Classification/Decision Tree/RandomForest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Classification/Logistic Regression/LogisticRegression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -416,64 +451,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/RNN.py">
+    <entry file="file://$PROJECT_DIR$/Classification/Logistic Regression/LogisticRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unsupervised/Clustering/KMeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="89">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#28#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/Naive Bayes/NaiveBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/SVM/SVM.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/Decision Tree/DecisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/Decision Tree/RandomForest.py">
+    <entry file="file://$PROJECT_DIR$/Neural Networks/Convolutional Neural Network/CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="-481">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/RNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Neural Networks/Vanilla NN/NeuralNetwork.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/LinearRegression/LinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Text Models/NGramLM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1576">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Text Models/UniformLM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="795">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Text Models/NGramLM.py">
+    <entry file="file://$PROJECT_DIR$/Unsupervised/Principal Component Analysis/PCA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="779">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unsupervised/Clustering/KMeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

@@ -76,7 +76,7 @@ class MaxPooling:
 
     def pool(self, image):
         """
-
+        Performs max pooling on the image.
         :param image: image to pool
         :return: image after max pooling
         """
@@ -162,7 +162,7 @@ class CNN:
 
             if i % 100 == 99:
                 print(
-                    '[Step %d] Past 100 steps: Average Loss %.3f | Accuracy: %d%%' %
+                    "[Step %d] Past 100 steps: Average Loss %.3f | Accuracy: %d%%" %
                     (i + 1, loss / 100, num_correct)
                 )
                 loss = 0
