@@ -2,7 +2,6 @@
 Author: Samson Qian
 """
 import numpy as np
-import pandas as pd
 
 
 class KNN:
@@ -34,11 +33,22 @@ class KNN:
 
     def predict(self, X):
         """
-
+        Making predictions on the training data.
         :param X: array of test features
         :return: predicted labels of test set
         """
-        return
+        return np.array([self._predict(x) for x in X])
+
+    def _predict(self, x):
+        """
+        Finds nearest neighbors of one data point and makes prediction.
+        :param x: one data point
+        :return: predicted label of data point
+        """
+        distances = [self.euclidean_distance(x, i) for i in self.data]
+        nearest = np.argsort(distances)[:self.neighbors]
+        neighbors = [self.labels[i] for i in nearest]
+        return max(neighbors, key=neighbors.count)
 
     @staticmethod
     def euclidean_distance(x1, x2):

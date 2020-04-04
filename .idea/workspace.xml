@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Models.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Models.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text Models/NGramLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Text Models/NGram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text Models/UniformLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Text Models/Uniform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
-              <folding>
-                <element signature="e#28#46#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="645">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -77,8 +69,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="30" />
+    <option name="x" value="158" />
+    <option name="y" value="25" />
     <option name="width" value="1453" />
     <option name="height" value="1008" />
   </component>
@@ -377,18 +369,27 @@
       <workItem from="1585451514626" duration="1284000" />
       <workItem from="1585453515099" duration="270000" />
       <workItem from="1585514663831" duration="222000" />
-      <workItem from="1585939298157" duration="2532000" />
+      <workItem from="1585939298157" duration="3918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23083000" />
+    <option name="totallyTimeSpent" value="24469000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="30" width="1453" height="1008" extended-state="0" />
+    <frame x="158" y="25" width="1453" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26080793" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26080793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -401,9 +402,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969433" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969433" />
@@ -447,6 +448,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Sample.ipynb" />
@@ -577,11 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
-          <folding>
-            <element signature="e#28#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="645">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
         </state>
       </provider>
     </entry>
