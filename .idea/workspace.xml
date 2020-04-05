@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/K Nearest Neighbors/.ipynb_checkpoints/Homework 1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/K Nearest Neighbors/Homework 1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/K Nearest Neighbors/Homework 1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/K Nearest Neighbors/Homework 1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/K Nearest Neighbors/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/K Nearest Neighbors/train.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="345">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -72,8 +71,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="25" />
+    <option name="x" value="123" />
+    <option name="y" value="27" />
     <option name="width" value="1453" />
     <option name="height" value="1008" />
   </component>
@@ -82,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -381,11 +380,12 @@
       <workItem from="1585982267993" duration="670000" />
       <workItem from="1586033136312" duration="1434000" />
       <workItem from="1586109120336" duration="1968000" />
+      <workItem from="1586115976617" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28975000" />
+    <option name="totallyTimeSpent" value="29001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,9 +397,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="25" width="1453" height="1008" extended-state="0" />
+    <frame x="123" y="27" width="1453" height="1008" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27852586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28206944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -628,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/K Nearest Neighbors/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="345">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
