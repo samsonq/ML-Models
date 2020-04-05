@@ -30,6 +30,7 @@ class KNN:
         :param X: array of training features
         :param y: array of training labels
         """
+        assert len(X) == len(y), "Features and Labels have different lengths!"
         if self.standardize:
             self.mean = np.mean(X, axis=0)
             self.std = np.std(X, axis=0)
@@ -39,7 +40,7 @@ class KNN:
 
     def predict(self, X):
         """
-        Making predictions on the training data.
+        Make predictions on the training data.
         :param X: array of test features
         :return: predicted labels of test set
         """
