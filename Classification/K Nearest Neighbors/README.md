@@ -1,10 +1,10 @@
 # KNN from scratch
-A Python implementation of KNN machine learning algorithm.
+Python implementation of a K Nearest Neighbors model from scratch.
 
-## Algorithm
-[K nearest neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) is a supervised learning algorithm to classification or regression. Considering _n_ points in the cartesian plane, if a new point is placed, its label will be the label of the _k_ nearest neighbors, in other words, the neighbors with least distance. To calculate the distance [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) algorithm is used.
+## Algorithm Description
+[K nearest neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) is a supervised machine learning algorithm. When a new data feature vector is introduced, the algorithm finds the _k_ nearest points to that new data point, and takes the majority vote of the label to be the prediction. The [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) measure is used to quantify distance between points.
 
-## Euclidean distance
+## Euclidean Distance
 <p align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-BNnXJs2WFM-hvledmFTsECBmQ1ssxkLnucrp3sG8yrXA8VAN" width=250>
 </p>
