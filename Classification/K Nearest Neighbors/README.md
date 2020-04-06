@@ -11,22 +11,20 @@ The Euclidean Distance can be calculated in any number of dimensions. It is the 
 </p>
 
 ## Implementation
-[Point](https://github.com/senavs/knn-from-scratch/blob/master/model/point.py) is a class to represent a point in cartesian plane. You are able to sum, subtract, multiply, divide and calculate distance between two points.
-``` python
-from model.point import Point
+The class contains methods for fitting and making predictions on data. The number of neighbors can be specified; typically an odd number of neighbors is used to avoid ties in majority votes. 
 
-p1 = Point([7, 4, 3])
-p2 = Point([17, 6, 2])
-```
-[KNearestNeighbors](https://github.com/senavs/knn-from-scratch/blob/master/model/knn.py) is the model class. Only the methods are allowed: `fit` and `predict`. Look into `help(KNearestNeighbors)` for more infomraiton.
 ```python
-from model.knn import KNearestNeighbors
+from KNN import KNN
 
-knn = KNearestNeighbors(k=3)
-knn.fit(x_train, y_train)
+X_train = np.array([[1, 1], [1, 2], [2, 3], [3, 4], [3, 6]])
+y_train = np.array([0, 0, 0, 1, 1])
+X_test = np.array([[1, 2], [1, 4], [2, 2], [3, 1], [3, 8]])
+y_test = np.array([1, 0, 1, 0, 1])
 
-predict = knn.predict(x_predict)
+knn = KNN(neighbors=3, standardize=True)
+knn.fit(X_train, y_train)
+
+preds = knn.predict(X_test)
+
+print("Accuracy: ", np.sum(preds != y_test)/len(y_test))
 ```
-
-## Apply KNearestNeighbors from scratch in dataset
-To show the package working, I created a jupyter notebook with [iris dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html). Take a look into [here](https://github.com/senavs/knn-from-scratch/blob/master/notebook/knn-iris_dataset.ipynb).
