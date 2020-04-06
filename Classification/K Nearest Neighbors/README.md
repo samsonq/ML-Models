@@ -11,7 +11,10 @@ The Euclidean Distance can be calculated in any number of dimensions. It is the 
 </p>
 
 ## Implementation
-The class contains methods for fitting and making predictions on data. The number of neighbors can be specified; typically an odd number of neighbors is used to avoid ties in majority votes. 
+The class contains methods for fitting and making predictions on data. The number of neighbors can be specified; typically an odd number of neighbors is used to avoid ties in majority votes.
+
+### Scaling
+Sometimes scaling the data before making predictions will improve the model performance. Feature weights may be imbalanced if one feature has a drastically higher range than the others. The algorithm will automatically give more weight to these large features and consider them more important in predicting the label. Standardizing will bring the features to the same scale and give equal weight to them.
 
 ```python
 from KNN import KNN
