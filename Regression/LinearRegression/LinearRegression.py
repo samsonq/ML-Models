@@ -28,7 +28,10 @@ class LinearRegression:
         :param y: array of labels for each input in x
         :return: array of calculated weights for model
         """
-        x = np.hstack((np.ones((x.shape[0], )).reshape(x.shape[0], 1), x.reshape(x.shape[0], 1)))
+        try:
+            x = np.hstack((np.ones((x.shape[0], )).reshape(x.shape[0], 1), x.reshape(x.shape[0], 1)))
+        except:
+            x = np.hstack((np.ones((x.shape[0], )).reshape(x.shape[0], 1), x))
         self.weights = np.linalg.inv((x.transpose().dot(x))).dot(x.transpose()).dot(y)
         return self.weights
 
