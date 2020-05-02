@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Bayes/NaiveBayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/Bayes/NaiveBayes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,9 @@
       <module name="ML-Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/K Nearest Neighbors" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -70,6 +72,9 @@
       <module name="ML-Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -221,6 +226,8 @@
       <workItem from="1587853716389" duration="40000" />
       <workItem from="1587859080767" duration="177000" />
       <workItem from="1587859275839" duration="741000" />
+      <workItem from="1587861030926" duration="14000" />
+      <workItem from="1588382098023" duration="121000" />
     </task>
     <servers />
   </component>

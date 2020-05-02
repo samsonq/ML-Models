@@ -28,11 +28,12 @@ class LinearRegression:
         :param y: array of labels for each input in x
         :return: array of calculated weights for model
         """
-        try:
-            x = np.hstack((np.ones((x.shape[0], )).reshape(x.shape[0], 1), x.reshape(x.shape[0], 1)))
-        except:
-            x = np.hstack((np.ones((x.shape[0], )).reshape(x.shape[0], 1), x))
-        self.weights = np.linalg.inv((x.transpose().dot(x))).dot(x.transpose()).dot(y)
+        assert len(x) == len(y), "Length of features and labels must be the same"
+        if len(x.shape) == 1:
+            x = x.reshape(x.shape[0], 1)
+        x = np.hstack((np.ones((x.shape[0], )).reshape(x.shape[0], 1), x))
+        #self.weights = np.linalg.inv((x.transpose().dot(x))).dot(x.transpose()).dot(y)  if matrix is invertible
+        self.weights = np.linalg.solve(x.transpose().dot(x), x.transpose().dot(y))
         return self.weights
 
     def predict(self, x):
@@ -44,7 +45,9 @@ class LinearRegression:
         :return: prediction of x
         """
         x = np.array(x)
-        x = np.hstack((np.ones(x.shape[0]), x))
+        if len(x.shape) == 1:
+            x = x.reshape(x.shape[0], 1)
+        x = np.hstack((np.ones((x.shape[0], )).reshape(x.shape[0], 1), x))
         return x.dot(self.weights)
 
     def get_weights(self):
