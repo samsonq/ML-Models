@@ -50,9 +50,6 @@
       <module name="ML-Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/K Nearest Neighbors" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -72,9 +69,6 @@
       <module name="ML-Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -228,6 +222,8 @@
       <workItem from="1587859275839" duration="741000" />
       <workItem from="1587861030926" duration="14000" />
       <workItem from="1588382098023" duration="121000" />
+      <workItem from="1588462070462" duration="2000" />
+      <workItem from="1588646674049" duration="27000" />
     </task>
     <servers />
   </component>
