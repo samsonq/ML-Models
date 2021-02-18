@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Classification/Logistic Regression/LogReg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Models.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Models.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +53,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -47,11 +70,14 @@
       <recent name="$PROJECT_DIR$/Classification/Bayes/LDA &amp; QDA" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LinearRegression">
+  <component name="RunManager" selected="Python.KNN">
     <configuration name="KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/K Nearest Neighbors" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -71,6 +97,9 @@
       <module name="ML-Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -174,10 +203,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.KNN" />
+      <item itemvalue="Python.LinearRegression" />
+      <item itemvalue="Python.LogisticRegression" />
+      <item itemvalue="Python.NaiveBayes" />
+      <item itemvalue="Python.PCA" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LinearRegression" />
         <item itemvalue="Python.KNN" />
+        <item itemvalue="Python.LinearRegression" />
         <item itemvalue="Python.NaiveBayes" />
       </list>
     </recent_temporary>
@@ -251,6 +287,19 @@
       <workItem from="1588646674049" duration="27000" />
       <workItem from="1592864924091" duration="305000" />
       <workItem from="1592865260345" duration="154000" />
+      <workItem from="1594079053468" duration="96000" />
+      <workItem from="1594079981009" duration="222000" />
+      <workItem from="1594080225474" duration="13000" />
+      <workItem from="1594080334059" duration="324000" />
+      <workItem from="1594080740685" duration="313000" />
+      <workItem from="1594081322943" duration="42000" />
+      <workItem from="1602753496625" duration="74000" />
+      <workItem from="1603094388271" duration="23000" />
+      <workItem from="1605047134268" duration="7000" />
+      <workItem from="1605142721032" duration="283000" />
+      <workItem from="1608084904234" duration="11000" />
+      <workItem from="1611990961492" duration="108000" />
+      <workItem from="1613642466079" duration="1193000" />
     </task>
     <servers />
   </component>
@@ -284,9 +333,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="159" key="SettingsEditor" timestamp="1592865200862">
+    <state x="374" y="159" key="SettingsEditor" timestamp="1594081357880">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="374" y="159" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1592865200862" />
+    <state x="374" y="159" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1594081357880" />
   </component>
 </project>
