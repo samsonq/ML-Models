@@ -50,3 +50,20 @@ class PCA:
         :return: top eigenvector of X(X^T)
         """
         return self.top_eigenvector
+
+
+class MultiPCA:
+    """
+
+    """
+    def __init__(self):
+        """
+
+        """
+
+    def fit(self, X):
+        """
+
+        :param X:
+        :return:
+        """

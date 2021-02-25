@@ -1,6 +1,7 @@
 import numpy as np
 
-class NaiveBayes:
+
+class SimplePerceptron:
     """
 
     """
@@ -8,21 +9,19 @@ class NaiveBayes:
         """
 
         """
-        self.data = None
-        self.labels = None
+        self.weights = None
 
-    def fit(self, X, y):
+    def train(self, X, y):
         """
 
         :param X:
         :param y:
+        :return:
         """
-        self.data = X
-        self.labels = y
 
     def predict(self, X):
         """
-        
+
         :param X:
         :return:
         """

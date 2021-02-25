@@ -8,8 +8,9 @@ class LinearRegression:
     """
     Model to perform linear regression on a dataset with any model in linear from that uses
     products of weights and multiples of x. Can contain multiple features for multiple regression.
-    Contains methods for training and predicting. Linear algebra-based approach to calculate
-    optimal weights to minimize MSE loss function.
+    Contains methods for training and predicting.
+
+    Linear algebra-based implementation to calculate optimal weights and minimize MSE loss function.
     """
     def __init__(self):
         """
