@@ -3,13 +3,13 @@ import numpy as np
 
 class NaiveBayes:
     """
-    Naive Bayes is a classifier that assumes mutual independence among the features of the data. This
-    assumption allows feasible estimation of probabilities using Bayes' Theorem by separating multiple
+    Naive bayes is a classifier that assumes mutual independence among the features of the data. This
+    assumption allows feasible estimation of probabilities using bayes' Theorem by separating multiple
     conditions into single conditions. This addresses the curse of dimensionality in which more features
     require significantly more data to make probability calculations.
 
     This implementation takes only categorical features to make a prediction. For numerical features, use
-    Gaussian or Multinomial Naive Bayes.
+    Gaussian or Multinomial Naive bayes.
     """
     def __init__(self):
         """
@@ -30,7 +30,7 @@ class NaiveBayes:
 
     def predict(self, X):
         """
-        Predict class using Bayes' Theorem and independence assumption.
+        Predict class using bayes' Theorem and independence assumption.
         :param X: feature data array
         :return: class prediction
         """
@@ -51,7 +51,7 @@ class NaiveBayes:
 
 class GaussianNaiveBayes(NaiveBayes):
     """
-    Gaussian Naive Bayes is an extension of Naive Bayes in which a Gaussian distribution is fit on
+    Gaussian Naive bayes is an extension of Naive bayes in which a Gaussian distribution is fit on
     numerical features in the data to estimate probabilities, rather than direct computation, which is
     often infeasible for continuous variables.
     """

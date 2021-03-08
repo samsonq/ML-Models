@@ -6,7 +6,7 @@ import numpy as np
 
 class KNN:
     """
-    A Nearest Neighbors model to make classifications on inputted data by computing the 'k'
+    A nearest_neighbors model to make classifications on inputted data by computing the 'k'
     nearest data points to a new data point and taking the majority class as the vote. Calculates
     the Euclidean distance between points to find closest neighbors.
     """

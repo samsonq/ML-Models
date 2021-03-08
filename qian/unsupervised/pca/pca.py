@@ -6,7 +6,7 @@ import numpy as np
 
 class PCA:
     """
-    Principal Component Analysis that maps a dataset with 2 features and combines them into one feature.
+    pca that maps a dataset with 2 features and combines them into one feature.
     The new feature is defined as the dot product between the top eigenvector of X(X^T) and the feature
     vector of the data (x1, x2).
     """
@@ -50,20 +50,3 @@ class PCA:
         :return: top eigenvector of X(X^T)
         """
         return self.top_eigenvector
-
-
-class MultiPCA:
-    """
-
-    """
-    def __init__(self):
-        """
-
-        """
-
-    def fit(self, X):
-        """
-
-        :param X:
-        :return:
-        """

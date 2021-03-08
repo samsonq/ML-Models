@@ -20,10 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Classification/Logistic Regression/LogReg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Models.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Models.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/LDA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qian/regression/linear/single_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qian/unsupervised/pca/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qian/unsupervised/pca/multi_pca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Bayes/Discriminant Analysis/Linear-Discriminant-Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/Linear-Discriminant-Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Bayes/Discriminant Analysis/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Bayes/Discriminant Analysis/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Bayes/naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/bayes/naive_bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Logistic Regression/LogisticRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/logistic/LogisticRegression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Logistic Regression/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/logistic/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Logistic Regression/logreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/logistic/logreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Nearest Neighbors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/nearest_neighbors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Nearest Neighbors/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/nearest_neighbors/knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Support Vectors/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/support_vector/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Trees/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/tree/decision_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/Trees/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/tree/random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural Networks/Convolutional Neural Network/convnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/cnn/convnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/rnn/lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/rnn/rnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural Networks/Vanilla NN/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural Networks/Vanilla NN/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regression/LinearRegression/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/regression/linear/linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text Models/ngram.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/text_model/ngram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text Models/uniform.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/text_model/uniform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsupervised/Clustering/hierarchical.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/unsupervised/clustering/hierarchical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsupervised/Clustering/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/unsupervised/clustering/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsupervised/Principal Component Analysis/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/unsupervised/pca/pca.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +91,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qian/nn" />
+      <recent name="$PROJECT_DIR$/qian" />
       <recent name="$PROJECT_DIR$/Neural Networks/Vanilla NN" />
       <recent name="$PROJECT_DIR$/Regression/LinearRegression" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Classification/Bayes/LDA &amp; QDA" />
     </key>
   </component>
   <component name="RunManager" selected="Python.KNN">
@@ -301,6 +328,7 @@
       <workItem from="1608084904234" duration="11000" />
       <workItem from="1611990961492" duration="108000" />
       <workItem from="1613642466079" duration="1193000" />
+      <workItem from="1615189917006" duration="468000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,7 @@ class LinearRegression:
     """
     def __init__(self):
         """
-        Constructor method to initialize weights of Linear Regression model.
+        Constructor method to initialize weights of Linear regression model.
         """
         self.weights = np.array([])
 

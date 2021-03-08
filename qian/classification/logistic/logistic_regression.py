@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 
 class LogisticRegression:
     """
-    A Logistic Regression model that uses single-featured, labeled data. Contains methods to
+    A logistic model that uses single-featured, labeled data. Contains methods to
     train a model based on data and make predictions to new data. This is a classification
     model where a probability is calculated of a data being (1) or (0).
     """
@@ -22,7 +22,7 @@ class LogisticRegression:
         """
         Takes single-featured dataset with labels of 1s and 0s and fits a model based on the data.
         Update weights of the model through calculations with Linear Algebra and plots out
-        the fitted Logistic Regression model accordingly.
+        the fitted logistic model accordingly.
         :param x: array of training data
         :param y: array of binary labels
         :returns: weights of the fitted model, c0 and c1
