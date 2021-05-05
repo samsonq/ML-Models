@@ -20,36 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/LDA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qian/regression/linear/single_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qian/unsupervised/pca/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qian/unsupervised/pca/multi_pca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Bayes/Discriminant Analysis/Linear-Discriminant-Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/Linear-Discriminant-Analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Bayes/Discriminant Analysis/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Bayes/Discriminant Analysis/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Bayes/naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/bayes/naive_bayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Logistic Regression/LogisticRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/logistic/LogisticRegression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Logistic Regression/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/logistic/logistic_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Logistic Regression/logreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/logistic/logreg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Nearest Neighbors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/nearest_neighbors/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Nearest Neighbors/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/nearest_neighbors/knn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Support Vectors/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/support_vector/svm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Trees/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/tree/decision_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/Trees/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/classification/tree/random_forest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural Networks/Convolutional Neural Network/convnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/cnn/convnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/rnn/lstm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural Networks/Recurrent Neural Network/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/rnn/rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural Networks/Vanilla NN/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural Networks/Vanilla NN/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/nn/perceptron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regression/LinearRegression/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/regression/linear/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text Models/ngram.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/text_model/ngram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text Models/uniform.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/text_model/uniform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unsupervised/Clustering/hierarchical.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/unsupervised/clustering/hierarchical.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unsupervised/Clustering/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/unsupervised/clustering/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unsupervised/Principal Component Analysis/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/qian/unsupervised/pca/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/LDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/LDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/Linear-Discriminant-Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/Linear-Discriminant-Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/QDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/QDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/naive_bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/logistic/LogisticRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/logistic/LogisticRegression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/logistic/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/logistic/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/logistic/logreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/logistic/logreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/nearest_neighbors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/nearest_neighbors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/nearest_neighbors/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/nearest_neighbors/knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/support_vector/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/support_vector/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/tree/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/tree/decision_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/classification/tree/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/tree/random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/nn/cnn/convnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/cnn/convnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/nn/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/nn/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/nn/rnn/lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/rnn/lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/nn/rnn/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/rnn/rnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/regression/linear/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/regression/linear/linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/regression/linear/single_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/regression/linear/single_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/text_model/ngram.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/text_model/ngram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/text_model/uniform.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/text_model/uniform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/unsupervised/clustering/hierarchical.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/clustering/hierarchical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/unsupervised/clustering/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/clustering/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/unsupervised/pca/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/pca/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/unsupervised/pca/multi_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/pca/multi_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qian/unsupervised/pca/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/pca/pca.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -328,7 +328,8 @@
       <workItem from="1608084904234" duration="11000" />
       <workItem from="1611990961492" duration="108000" />
       <workItem from="1613642466079" duration="1193000" />
-      <workItem from="1615189917006" duration="468000" />
+      <workItem from="1615189917006" duration="614000" />
+      <workItem from="1620204480544" duration="423000" />
     </task>
     <servers />
   </component>
@@ -362,9 +363,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="159" key="SettingsEditor" timestamp="1594081357880">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="570" y="155" width="597" height="735" key="find.popup" timestamp="1615190249836">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="374" y="159" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1594081357880" />
+    <state x="570" y="155" width="597" height="735" key="find.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1615190249836" />
   </component>
 </project>
