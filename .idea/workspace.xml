@@ -21,6 +21,37 @@
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/LDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/bayes/discriminant_analysis/LDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/Linear-Discriminant-Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/bayes/discriminant_analysis/Linear-Discriminant-Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/QDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/bayes/discriminant_analysis/QDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/bayes/discriminant_analysis/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/bayes/discriminant_analysis/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/bayes/naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/bayes/naive_bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/logistic/LogisticRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/logistic/LogisticRegression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/logistic/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/logistic/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/logistic/logreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/logistic/logreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/nearest_neighbors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/nearest_neighbors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/nearest_neighbors/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/nearest_neighbors/knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/support_vector/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/support_vector/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/tree/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/tree/decision_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/classification/tree/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/classification/tree/random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/nn/cnn/convnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/nn/cnn/convnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/nn/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/nn/neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/nn/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/nn/perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/nn/rnn/lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/nn/rnn/lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/nn/rnn/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/nn/rnn/rnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/regression/linear/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/regression/linear/linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/regression/linear/single_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/regression/linear/single_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/text_model/ngram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/text_model/ngram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/text_model/uniform.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/text_model/uniform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/unsupervised/clustering/hierarchical.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/unsupervised/clustering/hierarchical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/unsupervised/clustering/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/unsupervised/clustering/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/unsupervised/pca/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/unsupervised/pca/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/unsupervised/pca/multi_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/unsupervised/pca/multi_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianML/unsupervised/pca/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/unsupervised/pca/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +91,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,6 +103,39 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.KNN">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="ML-Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="ML-Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,6 +268,99 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="ML-Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="ML-Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="ML-Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="ML-Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="ML-Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="ML-Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.KNN" />
       <item itemvalue="Python.LinearRegression" />
@@ -218,6 +376,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -303,11 +462,12 @@
       <workItem from="1615189917006" duration="614000" />
       <workItem from="1620204480544" duration="570000" />
       <workItem from="1625192318034" duration="214000" />
+      <workItem from="1633664902367" duration="141000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
