@@ -21,34 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe7aa3f1-2d05-44ac-b095-8de30f7660f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/LDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/LDA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/Linear-Discriminant-Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/Linear-Discriminant-Analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/QDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/QDA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/discriminant_analysis/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/discriminant_analysis/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/bayes/naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/bayes/naive_bayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/logistic/LogisticRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/logistic/LogisticRegression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/logistic/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/logistic/logistic_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/logistic/logreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/logistic/logreg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/nearest_neighbors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/nearest_neighbors/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/nearest_neighbors/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/nearest_neighbors/knn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/support_vector/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/support_vector/svm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/tree/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/tree/decision_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/classification/tree/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/classification/tree/random_forest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/nn/cnn/convnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/cnn/convnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/nn/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/nn/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/perceptron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/nn/rnn/lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/rnn/lstm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/nn/rnn/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/nn/rnn/rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/regression/linear/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/regression/linear/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/regression/linear/single_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/regression/linear/single_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/text_model/ngram.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/text_model/ngram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/text_model/uniform.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/text_model/uniform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/unsupervised/clustering/hierarchical.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/clustering/hierarchical.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/unsupervised/clustering/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/clustering/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/unsupervised/pca/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/pca/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/unsupervised/pca/multi_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/pca/multi_pca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qian/unsupervised/pca/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianML/unsupervised/pca/pca.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +301,8 @@
       <workItem from="1611990961492" duration="108000" />
       <workItem from="1613642466079" duration="1193000" />
       <workItem from="1615189917006" duration="614000" />
-      <workItem from="1620204480544" duration="423000" />
+      <workItem from="1620204480544" duration="570000" />
+      <workItem from="1625192318034" duration="214000" />
     </task>
     <servers />
   </component>
