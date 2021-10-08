@@ -131,6 +131,4 @@ dmypy.json
 # Other
 .DS_Store
 .idea
-.idea/*
-.idea/workspace.xml
 *.xml
