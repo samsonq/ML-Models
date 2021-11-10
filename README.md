@@ -1,2 +1,2 @@
 # ML-Models
-Some machine learning models that I have written from scratch in Python using only numpy for calculus and linear algebra calculations. Documentation about each model is in each file.
+Machine/Deep learning implementations written from scratch in Python, Java, and C++ using only mathematical libraries for calculus and linear algebra computations. Documentation about each model is in each file.
