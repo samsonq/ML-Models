@@ -4,7 +4,7 @@ Author: Samson Qian
 import numpy as np
 
 
-class PCA:
+class PCA_Two_Factor:
     """
     pca that maps a dataset with 2 features and combines them into one feature.
     The new feature is defined as the dot product between the top eigenvector of X(X^T) and the feature
