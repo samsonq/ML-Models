@@ -54,6 +54,14 @@ class UnigramLM(object):
         return " ".join(np.random.choice(self.mdl.index.values, M, p=self.mdl.values))
 
 
+class BigramLM(object):
+    """
+    Bi-gram Model
+    """
+    def __init__(self):
+        return
+
+
 class NGramLM(object):
     """
     N-gram Language Model.
